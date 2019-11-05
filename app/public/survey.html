@@ -19,33 +19,42 @@
     <div class="jumbotron">
         <h1 class="display-4">Find your Friends!</h1>
         <hr class="my-4">
-        <img src="https://bookstr.com/wp-content/uploads/2019/09/friends-1568977438.jpg">
+        <img src="https://bookstr.com/wp-content/uploads/2019/09/friends-1568977438.jpg" class="img-fluid" alt="Responsive image">
     </div>
 
     <!-- Survey Question Form -->
-    <form>
-        <div class="form-group">
-            <h1>Survey Questions</h1>
-            <label for="exampleFormControlInput1">Name(Required)</label>
-            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your name here">
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlInput2">Link to photo image(Required)</label>
-            <input type="photo link" class="form-control" id="exampleFormControlInput2" placeholder="Photo link here">
-        </div>
+    <div class="container mt-5">
 
-        <h3>Question 1</h3>
-        <h5>You are competitive when it comes to games.</h5>
-        <select class="browser-default custom-select">
-            <option selected>Choose your option</option>
-            <option value="1">1(Strongly Disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5(Strongly Agree)</option>
-        </select>
-    </form>
-
+        <h1 class="title">Survey Questions</h1>
+        <hr>
+        <form>
+            <br>
+            <div class="form-group">
+                <h3>About You</h3>
+                <br>
+                <label for="exampleFormControlInput1">Name(Required)</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your name here">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="exampleFormControlInput2">Link to photo image(Required)</label>
+                <input type="photo link" class="form-control" id="exampleFormControlInput2"
+                    placeholder="Photo link here">
+            </div>
+            <br>
+            <h3>Question 1</h3>
+            <br>
+            <h5>You are competitive when it comes to games.</h5>
+            <select class="browser-default custom-select">
+                <option selected>Choose your option</option>
+                <option value="1">1(Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5(Strongly Agree)</option>
+            </select>
+        </form>
+    </div>
 
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

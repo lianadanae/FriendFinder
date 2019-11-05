@@ -13,6 +13,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
+//Points server to route files
+require("./routes/apiRoutes")(app);
+require("./routes/htmlRoutes")(app);
 
 
 // Starts the server to begin listening
