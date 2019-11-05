@@ -1,25 +1,63 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
 
     <title>Friends FriendFinder Survey</title>
-  </head>
-  <body>
-    <h1>Find your Friends!</h1>
-    <img src="https://bookstr.com/wp-content/uploads/2019/09/friends-1568977438.jpg">
-    <h2>Answer a few basic questions.</h2>
-    <h2>Then find the friend with the greatest compatibility!</h2>
-    <button type="button" class="btn btn-primary btn-lg">Go to Survey</button>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">Find your Friends!</h1>
+        <hr class="my-4">
+        <img src="https://bookstr.com/wp-content/uploads/2019/09/friends-1568977438.jpg">
+    </div>
+
+    <!-- Survey Question Form -->
+    <form>
+        <div class="form-group">
+            <h1>Survey Questions</h1>
+            <label for="exampleFormControlInput1">Name(Required)</label>
+            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your name here">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput2">Link to photo image(Required)</label>
+            <input type="photo link" class="form-control" id="exampleFormControlInput2" placeholder="Photo link here">
+        </div>
+
+        <h3>Question 1</h3>
+        <h5>You are competitive when it comes to games.</h5>
+        <select class="browser-default custom-select">
+            <option selected>Choose your option</option>
+            <option value="1">1(Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5(Strongly Agree)</option>
+        </select>
+    </form>
+
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+    </script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js">
+    </script>
+</body>
+
 </html>
