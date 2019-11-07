@@ -14,6 +14,14 @@ app.get('/api/friends', function(req, res){
 //API Post Requests
 app.post('/api/friends', function(req, res){
     var userInput = req.body;
+    var userResponses = userInput.scores;
+    var totalDifference = 0;
+    var bestMatch = {
+        name: "",
+        photo: "",
+        friendDifference: 1000
+    };
+for (var i = 0; i < friends.length; i++)
 
-})
-}
+});
+};
