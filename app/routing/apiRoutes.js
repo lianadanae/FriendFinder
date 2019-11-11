@@ -7,7 +7,7 @@ module.exports = function(app) {
 
 //API Get Requests
 app.get('/api/friends', function(req, res){
-    res.json(friends);
+    res.json(friendsArray);
 		console.log("friendsData[0].scores[0]: " + friendsData[0].scores[0]);
 });
 
