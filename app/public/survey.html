@@ -2,272 +2,343 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-
-    <title>Friends FriendFinder Survey</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <title>Friends Quiz</title>
 </head>
 
 <body>
+  <div class="container mt-5">
     <div class="jumbotron">
-        <h1 class="display-4">Find your Friends!</h1>
-        <hr class="my-4">
-        <img src="https://bookstr.com/wp-content/uploads/2019/09/friends-1568977438.jpg" class="img-fluid" alt="Responsive image"> 
+      <h1 class="display-4">Friend Finder Quiz</h1>
+      <hr class="my-4">
     </div>
 
     <!-- Survey Question Form -->
-    <div class="container mt-5">
-
+    <div class="form-group">
         <h1 class="title">Which Friends character are you most compatible with?</h1>
-        <hr>
-        <form>
-            <br>
-            <div class="form-group">
-                <h3>About You</h3>
-                <br>
-                <label for="exampleFormControlInput1">Name(Required)</label>
-                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your name here">
-            </div>
-            <br>
-            <div class="form-group">
-                <label for="exampleFormControlInput2">Link to photo image(Required)</label>
-                <input type="photo link" class="form-control" id="exampleFormControlInput2"
-                    placeholder="Photo link here">
-            </div>
-            <br>
-            <h3>Question 1</h3>
-            <br>
-            <h5>You love to clean anything and everything.</h5>
-            <select class="browser-default custom-select">
-                <option selected>Choose your option</option>
-                <option value="1">1(Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5(Strongly Agree)</option>
-            </select>
-            <br>
-            <br>
-            <br>
-            <h3>Question 2</h3>
-            <br>
-            <h5>You love to eat sandwiches.</h5>
-            <select class="browser-default custom-select">
-                <option selected>Choose your option</option>
-                <option value="1">1(Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5(Strongly Agree)</option>
-            </select>
-            <br>
-            <br>
-            <br>
-            <h3>Question 3</h3>
-            <br>
-            <h5>You are a shopaholic.</h5>
-            <select class="browser-default custom-select">
-                <option selected>Choose your option</option>
-                <option value="1">1(Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5(Strongly Agree)</option>
-            </select>
-            <br>
-            <br>
-            <br>
-            <h3>Question 4</h3>
-            <br>
-            <h5>You hate noise and you just want to be left alone.</h5>
-            <select class="browser-default custom-select">
-                <option selected>Choose your option</option>
-                <option value="1">1(Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5(Strongly Agree)</option>
-            </select>
-            <br>
-            <br>
-            <br>
-            <h3>Question 5</h3>
-            <br>
-            <h5>You enjoy making coffee for others.</h5>
-            <select class="browser-default custom-select">
-                <option selected>Choose your option</option>
-                <option value="1">1(Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5(Strongly Agree)</option>
-            </select>
-            <br>
-            <br>
-            <br>
-            <h3>Question 6</h3>
-            <br>
-            <h5>You believe in astrology and reincarnation.</h5>
-            <select class="browser-default custom-select">
-                <option selected>Choose your option</option>
-                <option value="1">1(Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5(Strongly Agree)</option>
-            </select>
-            <br>
-            <br>
-            <br>
-            <h3>Question 7</h3>
-            <br>
-            <h5>You think dinosaurs are just the coolest.</h5>
-            <select class="browser-default custom-select">
-                <option selected>Choose your option</option>
-                <option value="1">1(Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5(Strongly Agree)</option>
-            </select>
-            <br>
-            <br>
-            <br>
-            <h3>Question 8</h3>
-            <br>
-            <h5>You tell bad jokes when you're nervous.</h5>
-            <select class="browser-default custom-select">
-                <option selected>Choose your option</option>
-                <option value="1">1(Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5(Strongly Agree)</option>
-            </select>
-            <br>
-            <br>
-            <br>
-            <h3>Question 9</h3>
-            <br>
-            <h5>You shout OH MY GOD every time your excited!</h5>
-            <select class="browser-default custom-select">
-                <option selected>Choose your option</option>
-                <option value="1">1(Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5(Strongly Agree)</option>
-            </select>
-            <br>
-            <br>
-            <br>
-            <h3>Question 10</h3>
-            <br>
-            <h5>You are obsessed with the song "The lion sleeps tonight".</h5>
-            <select class="browser-default custom-select">
-                <option selected>Choose your option</option>
-                <option value="1">1(Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5(Strongly Agree)</option>
-            </select>
-        </form>
+        <br>
+        <h3><strong>About You</strong></h3>
+      </div>
+
+      <div class="panel-body">
+        <h4>Name</h4>
+        <div class="input-group">
+          <input id="userName" type="text" class="form-control" name="name" placeholder="Your name here">
+          <span class="input-group-addon">(Required)</span>
+        </div>
+        <br>
+        <h4>Link to Photo Image</h4>
+        <div class="input-group">
+          <input id="userImage" type="text" class="form-control" name="name" placeholder="Photo link here">
+          <span class="input-group-addon">(Required)</span>
+        </div>
+      </div>
     </div>
 
-    <!-- Survey Submit Button -->
-    <div>
-    <button type="button" class="btn btn-primary btn-lg"><i class="far fa-check-square"></i>&nbspSubmit</button>
-  </div>
-    <br>
-    <br>
-    <br>
-    <footer class="footer">
-        <div class="container">
-          <p><a href="https://lianadanae.github.io/Portfolio/" target="_">Created by Liana Bette</a> | <a href="https://github.com/lianadanae/FriendFinder" target="_">GitHub Repo</a></p>
-        </div>
-      </footer>
+    <!-- Quiz Page Questions -->
+    <div class="container">
+      <div class="body">
+<br>
+<br>
+        <!-- Q1 -->
+        <div class="form-group">
+        <h3><strong>Question 1</strong></h3>
+        <h5>You love to clean anything and everything.</h5>
+        <select class="browser-default custom-select" id="question1">
+          <option selected>Choose your option</option>
+          <option value="1">1(Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5(Strongly Agree)</option>
+        </select>
+      </div>
 
-      <!-- Modal displaying closest friend character match-->
-      <div class="modal" tabindex="-1" role="dialog">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title">Best Friend Match</h5>
-                <h5 id="characterName"></h5>
-                <img id ="characterPhoto" src="">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <p>Modal body text goes here.</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
+        <!-- Q2 -->
+        <div class="form-group">
+        <h3><strong>Question 2</strong></h3>
+        <h5>You love to eat sandwiches.</h5>
+        <select class="browser-default custom-select" id="question2">
+          <option selected>Choose your option</option>
+          <option value="1">1(Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5(Strongly Agree)</option>
+        </select>
+      </div>
+
+        <!-- Q3 -->
+        <div class="form-group"> 
+        <h3><strong>Question 3</strong></h3>
+        <br>
+        <h5>You are a shopaholic.</h5>
+        <select class="browser-default custom-select" id="question3">
+          <option selected>Choose your option</option>
+          <option value="1">1(Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5(Strongly Agree)</option>
+        </select>
+      </div>
+        
+        <!-- Q4 -->
+        <div class="form-group">
+        <h3><strong>Question 4</strong></h3>
+        <br>
+        <h5>You hate noise and you just want to be left alone.</h5>
+        <select class="browser-default custom-select" id="question4">
+          <option selected>Choose your option</option>
+          <option value="1">1(Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5(Strongly Agree)</option>
+        </select>
+      </div>
+
+        <!-- Q5 -->
+        <div class="form-group">
+        <h3><strong>Question 5</strong></h3>
+        <br>
+        <h5>You enjoy making coffee for others.</h5>
+        <select class="browser-default custom-select" id="question5">
+          <option selected>Choose your option</option>
+          <option value="1">1(Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5(Strongly Agree)</option>
+        </select>
+      </div>
+        
+        <!-- Q6 -->
+        <div class="form-group">
+        <h3><strong>Question 6</strong></h3>
+        <br>
+        <h5>You believe in astrology and reincarnation.</h5>
+        <select class="browser-default custom-select" id="question6">
+          <option selected>Choose your option</option>
+          <option value="1">1(Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5(Strongly Agree)</option>
+        </select>
+      </div>
+        <!-- Q7 -->
+        <div class="form-group">
+        <h3><strong>Question 7</strong></h3>
+        <br>
+        <h5>You think dinosaurs are just the coolest.</h5>
+        <select class="browser-default custom-select" id="question7">
+          <option selected>Choose your option</option>
+          <option value="1">1(Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5(Strongly Agree)</option>
+        </select>
+      </div>
+        
+        <!-- Q8 -->
+        <div class="form-group">
+        <h3><strong>Question 8</strong></h3>
+        <br>
+        <h5>You tell bad jokes when you're nervous.</h5>
+        <select class="browser-default custom-select" id="question8">
+          <option selected>Choose your option</option>
+          <option value="1">1(Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5(Strongly Agree)</option>
+        </select>
+      </div>
+        
+        <!-- Q9 -->
+        <div class="form-group">
+        <h3><strong>Question 9</strong></h3>
+        <br>
+        <h5>You shout OH MY GOD every time you're excited!</h5>
+        <select class="browser-default custom-select" id="question9">
+          <option selected>Choose your option</option>
+          <option value="1">1(Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5(Strongly Agree)</option>
+        </select>
+      </div>
+        
+        <!-- Q10 -->
+        <div class="form-group">
+        <h3><strong>Question 10</strong></h3>
+        <br>
+        <h5>You are obsessed with the song "The Lion Sleeps Tonight".</h5>
+        <select class="browser-default custom-select" id="question10">
+          <option selected>Choose your option</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      </div>
+    
+
+
+    <!-- Survey Submit Button -->
+
+    <button type="submit" id="submitBtn" class="btn btn-primary btn-lg"><i
+        class="far fa-check-square"></i>&nbspSubmit</button>
+      </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="text-center">
+      <p>
+        <a href="/api/friends">API Friends List</a> | <a href="https://github.com/lianadanae/FriendFinder"
+          target="_">GitHub Repo</a> | <a href="/">Home</a>
+      </p>
+    </div>
+    </footer>
+
+    <!-- Modal displaying closest friend character match-->
+    <div id="modal1" class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"><strong>Friend Character Match</strong></h5>
+          </div>
+
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <h5 id="userMatch"></h5>
+            <img id="userMatchImage" src="" alt="No Image" style="max-width: 350px;">
+          </div>
+
+          <!-- Modal Footer Close Button-->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
 
-        <!-- Javascript to Post form data to server -->
-        <script type="text/javascript">
+  <!-- Javascript to Post form data to server -->
+  <script type="text/javascript">
+    // Global Variable Declaration
+    var allFieldsCompleted;
 
-        //Submit button
-        $(document).ready(function() {
-  $(".submit").on("click", function(event) {
-    event.preventDefault();
-
-    //Gather user inputs
-    var userInput = {
-      name: $("#userName").val().trim(),
-      photo: $("#userImage").val().trim(),
-      scores: [
-                $("#question1").val().trim(),
-                $("#question2").val().trim(),
-                $("#question3").val().trim(),
-                $("#question4").val().trim(),
-                $("#question5").val().trim(),
-                $("#question6").val().trim(),
-                $("#question7").val().trim(),
-                $("#question8").val().trim(),
-                $("#question9").val().trim(),
-                $("#question10").val().trim()
-    ]
-    };
-    console.log(userInput);
-    //Add user input to friends list
-    $.post('/api/friends', userInput,
-      function(data) {
-        $('#characterMatch').text(data.name);
-          $("#characterImage").attr("src", data.photo);
+    // Submit button function
+    $(document).ready(function () {
+      $("#submitBtn").on("click", function () {
+        checkIfComplete(function () {
+          if (allFieldsCompleted) {
+            collectInputs();
+          } else {
+            alert('Please complete all fields before submitting!');
+          }
+        });
       });
-		    	// Pop open the modal dialog
-      			$('#modal').modal();
-      
     });
-		});
-</script>
 
-    <!-- JQuery -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
-    </script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js">
-    </script>
+    // Form validation
+    function checkIfComplete(callback) {
+
+      var questionsCompleted;
+      $('.custom-select').each(function () {
+          if ($(this).val() == "") {
+            questionsCompleted = false;
+          }
+        })
+
+        // This counters the async behavior of $.each()
+        .promise().done(function () {
+          if (questionsCompleted === false) {
+            allFieldsCompleted = false;
+          }
+          // Determine if Name is entered
+          else if ($('#userName').val().trim() == "") {
+            allFieldsCompleted = false;
+          }
+
+          // Determine if Link is entered
+          else if ($('#userImage').val().trim() == "") {
+            allFieldsCompleted = false;
+          }
+
+          // Otherwise, the all fields are completed
+          else {
+            allFieldsCompleted = true;
+          }
+
+          // Fire Off Callback (to counter async behavior of $.each)
+          callback();
+
+        });
+    }
+
+    function collectInputs() {
+
+      //Gather user inputs
+      var newFriend = {
+        name: $('#userName').val().trim(),
+        photo: $('#userImage').val().trim(),
+        scores: []
+      };
+
+      // Loop through Questions to get scores
+      var scoresArray = [];
+      $('.custom-select').each(function () {
+          scoresArray.push(parseInt($(this).val())); // Parse Input Value as integer
+        })
+        // This counters the async behavior of $.each()
+        .promise().done(function () {
+
+          // Push the array of scores to the new friend object
+          newFriend.scores = scoresArray;
+
+          //Grabs current URL of website
+          var currentURL = window.location.origin;
+
+          //Add user input to friends list
+          $.post(currentURL + "/api/friends", newFriend, function (data) {
+            $("#userMatch").text(data.name);
+            $("#userMatchImage").attr("src", data.photo);
+
+            // Pop open the modal dialog
+            $('#modal1').modal();
+          });
+        });
+    }
+  </script>
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+  </script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js">
+  </script>
 </body>
 
 </html>
